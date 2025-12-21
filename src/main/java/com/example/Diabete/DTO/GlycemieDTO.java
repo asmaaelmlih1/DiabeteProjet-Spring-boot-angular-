@@ -16,10 +16,6 @@ import org.springframework.format.annotation.DateTimeFormat;
 @NoArgsConstructor
 public class GlycemieDTO {
     private Long id;
-    private String unit;
     private Double value;
-    private GlycemieType glycemieType;
     private DateTime dateTime;
-    private String note;
-    private Patient patient;
 }

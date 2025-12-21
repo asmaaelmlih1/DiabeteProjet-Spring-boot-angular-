@@ -21,5 +21,5 @@ public class PatientDTO {
     private String treatment;
     private Double targetMin;
     private Double targetMax;
-    private List<Glycemie> glycemieList;
+    private List<GlycemieDTO> glycemieList;
 }
